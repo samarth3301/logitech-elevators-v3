@@ -3841,6 +3841,10 @@ a {
   display: flex;
 }
 
+.home-two-hero-main.inner-hero {
+  padding-top: 160px;
+}
+
 .header-menu-item {
   color: #202854;
   font-size: 1rem;
@@ -3971,8 +3975,11 @@ a {
   height: 100vh;
   padding-left: 15px;
   padding-right: 15px;
-  position: sticky;
-  top: 0;
+  position: relative;
+}
+
+.home-two-hero.inner-hero {
+  height: 70vh;
 }
 
 .home-two-about-left-subheading {
@@ -4787,7 +4794,9 @@ a {
 
 .footer-two-link {
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  row-gap: 30px;
   display: flex;
 }
 
@@ -4844,6 +4853,8 @@ a {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   flex-flow: column;
+  flex: 0 1 auto;
+  min-width: 200px;
   display: flex;
 }
 
