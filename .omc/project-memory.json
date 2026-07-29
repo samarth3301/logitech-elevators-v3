@@ -91,14 +91,14 @@
   "hotPaths": [
     {
       "path": "css/archiesta.webflow.shared.16e0b0cb3.css",
-      "accessCount": 15,
-      "lastAccessed": 1785333251260,
+      "accessCount": 16,
+      "lastAccessed": 1785334561678,
       "type": "file"
     },
     {
       "path": "projects.html",
-      "accessCount": 1,
-      "lastAccessed": 1785333555598,
+      "accessCount": 4,
+      "lastAccessed": 1785334778008,
       "type": "file"
     }
   ],
